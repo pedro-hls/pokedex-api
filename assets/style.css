@@ -12,14 +12,7 @@
     font-size: 1em;
     box-sizing: border-box;
     font-family: var(--default-font);
-}
-
-body {
-    background: rgb(181,250,255);
-    background: linear-gradient(194deg, rgba(181,250,255,1) 25%, rgba(98,171,214,1) 73%, rgba(30,106,180,1) 100%);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #f0ffff;
 }
 
 .container {
@@ -28,13 +21,10 @@ body {
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 60px;
     margin-bottom: 57px;
     padding: 0px 30px 40px 30px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.315);
     min-width: 350px;
     max-width: 500px;
-    background-color: #f0ffff;
     border-radius: 5px;
 }
 
