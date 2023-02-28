@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <title> Pokedex! </title>
+
+</head>
+<body>
+    
+    <main class="container">
+
+    <div class="image">
+        <img src="assets/logo-pokemon.png" alt="logo pokemon" class="pokemon-title">
+    </div>
+
+        <form class="form-pokemon">
+            <label class= "form-description"> Número ou Nome do Pokémon </label>
+            <p class="inputs">
+                <input type="text" class="form-input" name="submitPokemon" id="submitPokemon" placeholder="ex.: 114 / Tangela" required>
+                <input type="submit" class="search-button" value="buscar">
+            </p>
+        </form>
+
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png" alt="" class="pokemon-image">
+
+        <fieldset class="pokemon-infos name-and-id">
+            <legend class="legend"> NOME </legend>
+                <p class="poke-name"> TANGELA </p>
+                <p class="poke-id"> #114 </p>
+        </fieldset>
+
+        <fieldset class="pokemon-infos pokemon-description">
+            <legend class="legend"> TIPOS </legend>
+                <p class="pokemon-type description"> grass </p>
+        </fieldset>
+
+        <fieldset class="pokemon-infos pokemon-description">
+            <legend class="legend"> HABILIDADES </legend>
+                <p class="pokemon-abilities description"> chlorophyll / leaf-guard </p>
+        </fieldset>
+        
+    </main>
+    
+    <script src="assets/script.js"></script>
+    <script src="https://kit.fontawesome.com/a6c6a11ad0.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
