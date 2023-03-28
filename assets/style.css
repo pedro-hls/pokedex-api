@@ -3,7 +3,7 @@
 :root {
     --default-font: 'Poppins';
     --amarelo: #fdd845;
-    --azul: #2a72b8;
+    --preto: #141414;
 }
 
 * {
@@ -12,7 +12,7 @@
     font-size: 1em;
     box-sizing: border-box;
     font-family: var(--default-font);
-    background-color: #f0ffff;
+    background-color: #ffffff;
 }
 
 .container {
@@ -68,7 +68,7 @@
 }
 
 .pokemon-image {
-    background-color: azure;
+    background-color: #ffffff;
     margin: 15px 0px 0px 0px;
     width: 300px;
     height: 300px;
@@ -83,11 +83,11 @@
     text-align: center;
     font-size: 1.5em;
     font-weight: 600;
-    border: 1px solid var(--azul);
+    border: 1px solid var(--preto);
     padding: 5px 15px 0px 15px;
     border-radius: 5px;
-    color: var(--azul);
-    box-shadow: 0px 5px 0px #17508a;
+    color: var(--preto);
+    box-shadow: 0px 5px 0px #141414;
 }
 
 .name-and-id {
@@ -95,7 +95,7 @@
 }
 
 .pokemon-description {
-    border: 1px solid var(--azul);
+    border: 1px solid var(--preto);
     padding-bottom: 10px;
 }
 .pokemon-abilities,
